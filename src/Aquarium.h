@@ -151,6 +151,7 @@ class AquariumGameScene : public GameScene {
         string GetName()override {return this->m_name;}
         void Update() override;
         void Draw() override;
+        void setup();
     private:
         void paintAquariumHUD();
         std::shared_ptr<PlayerCreature> m_player;
@@ -158,6 +159,8 @@ class AquariumGameScene : public GameScene {
         std::shared_ptr<GameEvent> m_lastEvent;
         string m_name;
         AwaitFrames updateControl{5};
+        ofSoundPlayer m_bounceSound;
+        ofSoundPlayer m_ambientSound;
 };
 
 

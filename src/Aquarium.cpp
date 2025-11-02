@@ -13,6 +13,20 @@ string AquariumCreatureTypeToString(AquariumCreatureType t){
     }
 }
 
+
+
+void AquariumGameScene::setup(){
+    // load ambient sound
+    m_ambientSound.load("sounds/underwateraq.mp3");
+    m_ambientSound.setLoop(true);
+    m_ambientSound.play();
+
+    m_bounceSound.load("sounds/bounce.mp3");
+    m_bounceSound.setMultiPlay(true);
+    
+
+}
+
 // PlayerCreature Implementation
 PlayerCreature::PlayerCreature(float x, float y, int speed, std::shared_ptr<GameSprite> sprite)
 : Creature(x, y, speed, 10.0f, 1, sprite) {}
@@ -29,6 +43,7 @@ void PlayerCreature::move() {
     m_y += m_dy * m_speed;
     this->bounce();
 }
+
 
 void PlayerCreature::reduceDamageDebounce() {
     if (m_damage_debounce > 0) {

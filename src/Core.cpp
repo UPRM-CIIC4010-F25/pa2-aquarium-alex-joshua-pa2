@@ -10,11 +10,23 @@ void Creature::normalize() {
         m_dy /= length;
     }
 }
-
 void Creature::bounce() {
     // should implement boundary controls here
-}
-
+    if (m_x - m_collisionRadius < 0){
+        m_x = m_collisionRadius;
+        m_dx *= -1;
+    } else if(m_x + m_collisionRadius > m_width){
+        m_x = m_width - m_collisionRadius;
+        m_dx *= -1;
+    }
+    if (m_y - m_collisionRadius < 0){
+        m_y = m_collisionRadius;
+        m_dy *= -1;
+    } else if(m_y + m_collisionRadius > m_height){
+        m_y = m_height - m_collisionRadius;
+        m_dy *= -1;
+    }
+};
 
 void GameEvent::print() const {
         
@@ -48,10 +60,15 @@ void GameEvent::print() const {
 
 // collision detection between two creatures
 bool checkCollision(std::shared_ptr<Creature> a, std::shared_ptr<Creature> b) {
-    return false; 
+    int change_in_x = b->getX() - a->getX();
+    int change_in_y = b->getY() - a->getY();
+    float distance = sqrt(pow(change_in_x, 2) + pow(change_in_y, 2));
+    if (distance <= a->getCollisionRadius() + b->getCollisionRadius()) {
+        return true;}
+    return false;
+        
+    
 };
-
-
 string GameSceneKindToString(GameSceneKind t){
     switch(t)
     {
