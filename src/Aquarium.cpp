@@ -15,6 +15,8 @@ string AquariumCreatureTypeToString(AquariumCreatureType t){
             return "EvenBiggerFish";
         case AquariumCreatureType::PowerUp:
             return "PowerUpFish";
+        case AquariumCreatureType::ProtagonistFish:
+            return "ProtagonistFish";
         default:
             return "UnknownFish";
     }
@@ -225,7 +227,6 @@ std::shared_ptr<GameSprite> AquariumSpriteManager::GetSprite(AquariumCreatureTyp
     switch(t){
         case AquariumCreatureType::BiggerFish:
             return std::make_shared<GameSprite>(*this->m_big_fish);
-            
         case AquariumCreatureType::NPCreature:
             return std::make_shared<GameSprite>(*this->m_npc_fish);
         case AquariumCreatureType::NemoFish:

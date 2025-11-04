@@ -83,8 +83,8 @@ void ofApp::update(){
     }
 
     gameManager->UpdateActiveScene();
-
     ofSoundUpdate(); 
+    
 
 
 }

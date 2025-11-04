@@ -144,7 +144,6 @@ class AquariumSpriteManager {
         std::shared_ptr<GameSprite> m_nemo_fish;
         std::shared_ptr<GameSprite> m_even_bigger_fish;
         std::shared_ptr<GameSprite> m_protagonist_fish;
-
 };
 
 
