@@ -15,7 +15,6 @@ void ofApp::setup(){
     // make the game scene manager 
     gameManager = std::make_unique<GameSceneManager>();
 
-
     // first we make the intro scene 
     gameManager->AddScene(std::make_shared<GameIntroScene>(
         GameSceneKindToString(GameSceneKind::GAME_INTRO),
@@ -30,11 +29,15 @@ void ofApp::setup(){
     player = std::make_shared<PlayerCreature>(ofGetWindowWidth()/2 - 50, ofGetWindowHeight()/2 - 50, DEFAULT_SPEED, this->spriteManager->GetSprite(AquariumCreatureType::NPCreature));
     player->setDirection(0, 0); // Initially stationary
     player->setBounds(ofGetWindowWidth() - 20, ofGetWindowHeight() - 20);
-
+    
 
     myAquarium->addAquariumLevel(std::make_shared<Level_0>(0, 10));
     myAquarium->addAquariumLevel(std::make_shared<Level_1>(1, 15));
     myAquarium->addAquariumLevel(std::make_shared<Level_2>(2, 20));
+    myAquarium->addAquariumLevel(std::make_shared<Level_3>(3, 30));
+    myAquarium->addAquariumLevel(std::make_shared<Level_4>(4, 40));
+    myAquarium->addAquariumLevel(std::make_shared<Level_5>(5, 60));
+    myAquarium->addAquariumLevel(std::make_shared<Level_6>(6, 100));
     myAquarium->Repopulate(); // initial population
 
     // now that we are mostly set, lets pass the player and the aquarium downstream
@@ -50,8 +53,13 @@ void ofApp::setup(){
 
     gameManager->AddScene(std::make_shared<GameOverScene>(
         GameSceneKindToString(GameSceneKind::GAME_OVER),
-        std::make_shared<GameSprite>("game-over.png", ofGetWindowWidth(), ofGetWindowHeight())
-    ));
+        std::make_shared<GameSprite>("game-over.png", ofGetWindowWidth(), ofGetWindowHeight())));
+
+    // setup music
+    auto aquariumScene = std::static_pointer_cast<AquariumGameScene>(gameManager->GetScene(GameSceneKindToString(GameSceneKind::AQUARIUM_GAME)));
+    if (aquariumScene){
+        aquariumScene->setup();
+    }
 
     ofSetLogLevel(OF_LOG_NOTICE); // Set default log level
 }

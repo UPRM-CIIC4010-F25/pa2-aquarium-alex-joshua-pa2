@@ -5,7 +5,7 @@
 #include <algorithm>
 #include "ofMain.h"
 
-
+using namespace std;
 class AwaitFrames {
 public:
 	AwaitFrames(int frames) : m_frames(frames), m_counter(0) {}
@@ -74,7 +74,7 @@ protected:
     float m_width = 0.0f;
     float m_height = 0.0f;
     float m_collisionRadius = 0.0f;
-    int m_value = 0;
+    int m_value = 1;
     std::shared_ptr<GameSprite> m_sprite;
 
 public:
@@ -100,6 +100,7 @@ public:
     void setBounds(int w, int h);
     void normalize();
     void bounce();
+    static ofSoundPlayer m_bounceSound;
 };
 
 // GameEvents

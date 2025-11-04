@@ -1,6 +1,6 @@
 #include "Core.h"
 
-
+ofSoundPlayer Creature::m_bounceSound;
 // Creature Inherited Base Behavior
 void Creature::setBounds(int w, int h) { m_width = w; m_height = h; }
 void Creature::normalize() {
@@ -12,19 +12,28 @@ void Creature::normalize() {
 }
 void Creature::bounce() {
     // should implement boundary controls here
+    bool hit = false;
     if (m_x - m_collisionRadius < 0){
         m_x = m_collisionRadius;
         m_dx *= -1;
+        hit = true;
     } else if(m_x + m_collisionRadius > m_width){
         m_x = m_width - m_collisionRadius;
         m_dx *= -1;
+        hit = true;
     }
     if (m_y - m_collisionRadius < 0){
         m_y = m_collisionRadius;
         m_dy *= -1;
+        hit = true;
     } else if(m_y + m_collisionRadius > m_height){
         m_y = m_height - m_collisionRadius;
         m_dy *= -1;
+        hit = true;
+    }
+    
+    if (hit){
+        Creature::m_bounceSound.play();
     }
 };
 
