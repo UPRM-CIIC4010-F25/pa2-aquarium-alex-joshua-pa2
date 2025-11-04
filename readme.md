@@ -25,7 +25,7 @@ Grading
 | Student Number | Student Name | Student Email |
 |-|-|-|
 |(802 24 1486)| (Joshua Alessandro Rivera Morales)| (joshua.rivera46@upr.edu) |
-|(STUDENT NUMBER HERE)| (STUDENT NAME HERE)| (STUDENT EMAIL HERE) |
+|(802-24-3872)| (Alex Abdiel Ocasio Mercado)| (alex.ocasio1@upr.edu) |
 
 ---
 
