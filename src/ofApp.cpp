@@ -24,9 +24,11 @@ void ofApp::setup(){
     //AquariumSpriteManager
     spriteManager = std::make_shared<AquariumSpriteManager>();
 
-    // Lets setup the aquarium
+     // Lets setup the aquarium
+
     myAquarium = std::make_shared<Aquarium>(ofGetWindowWidth(), ofGetWindowHeight(), spriteManager);
-    player = std::make_shared<PlayerCreature>(ofGetWindowWidth()/2 - 50, ofGetWindowHeight()/2 - 50, DEFAULT_SPEED, this->spriteManager->GetSprite(AquariumCreatureType::NPCreature));
+    auto protagonistFishSprite = std::make_shared<GameSprite>("protagonist-fish.png", 75, 75);
+    player = std::make_shared<PlayerCreature>(ofGetWindowWidth()/2 - 50, ofGetWindowHeight()/2 - 50, DEFAULT_SPEED, this->spriteManager->GetSprite(AquariumCreatureType::ProtagonistFish));
     player->setDirection(0, 0); // Initially stationary
     player->setBounds(ofGetWindowWidth() - 20, ofGetWindowHeight() - 20);
     
@@ -81,7 +83,8 @@ void ofApp::update(){
     }
 
     gameManager->UpdateActiveScene();
-    
+
+    ofSoundUpdate(); 
 
 
 }
