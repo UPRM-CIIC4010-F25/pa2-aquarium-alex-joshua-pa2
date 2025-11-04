@@ -15,6 +15,8 @@ string AquariumCreatureTypeToString(AquariumCreatureType t){
             return "EvenBiggerFish";
         case AquariumCreatureType::PowerUp:
             return "PowerUpFish";
+        case AquariumCreatureType::ProtagonistFish:
+            return "ProtagonistFish";
         default:
             return "UnknownFish";
     }
@@ -213,6 +215,7 @@ void PowerUpPlayer::draw() const {
 
 // AquariumSpriteManager
 AquariumSpriteManager::AquariumSpriteManager(){
+    this->m_protagonist_fish = std::make_shared<GameSprite>("protagonist-fish.png", 75,75 );
     this->m_npc_fish = std::make_shared<GameSprite>("base-fish.png", 70,70);
     this->m_big_fish = std::make_shared<GameSprite>("bigger-fish.png", 120, 120);
     this->m_nemo_fish = std::make_shared<GameSprite>("nemo-fish.png", 50, 50);
@@ -224,13 +227,14 @@ std::shared_ptr<GameSprite> AquariumSpriteManager::GetSprite(AquariumCreatureTyp
     switch(t){
         case AquariumCreatureType::BiggerFish:
             return std::make_shared<GameSprite>(*this->m_big_fish);
-            
         case AquariumCreatureType::NPCreature:
             return std::make_shared<GameSprite>(*this->m_npc_fish);
         case AquariumCreatureType::NemoFish:
             return std::make_shared<GameSprite>(*this->m_nemo_fish);
         case AquariumCreatureType::EvenBiggerFish:
             return std::make_shared<GameSprite>(*this->m_even_bigger_fish);
+        case AquariumCreatureType::ProtagonistFish:
+            return std::make_shared<GameSprite>(*this->m_protagonist_fish);
         case AquariumCreatureType::PowerUp:
             return std::make_shared<GameSprite>(*this->m_powerup);
         default:
@@ -318,6 +322,9 @@ void Aquarium::SpawnCreature(AquariumCreatureType type) {
             break;
         case AquariumCreatureType::PowerUp:
             this->addCreature(std::make_shared<PowerUpPlayer>(x, y, 0, this->m_sprite_manager->GetSprite(AquariumCreatureType::PowerUp)));
+            break;
+        case AquariumCreatureType::ProtagonistFish:
+            this->addCreature(std::make_shared<PlayerCreature>(x, y, speed, this->m_sprite_manager->GetSprite(AquariumCreatureType::ProtagonistFish)));
             break;
         default:
             ofLogError() << "Unknown creature type to spawn!";
