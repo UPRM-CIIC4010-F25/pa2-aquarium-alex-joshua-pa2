@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
+  <diagram name="Page-1" id="zaL7ha000ExpXJRa1bCy">
+    <mxGraphModel dx="2849" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdeAvwxH1KuzEY8_ipnW-1" target="mdeAvwxH1KuzEY8_ipnW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99CCFF);strokeColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="-620" y="50" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-2" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;GameSceneManager&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="82.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99FF33);" vertex="1" parent="1">
+          <mxGeometry x="-620" y="210" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-5" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;AquariumGameScene&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="242.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="mdeAvwxH1KuzEY8_ipnW-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-515.67" y="150" as="sourcePoint" />
+            <mxPoint x="-515.67" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC6600);" vertex="1" parent="1">
+          <mxGeometry x="-620" y="380" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-8" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;Aquarium&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="412.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="mdeAvwxH1KuzEY8_ipnW-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-515.67" y="310" as="sourcePoint" />
+            <mxPoint x="-515.67" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFF66);" vertex="1" parent="1">
+          <mxGeometry x="-60" y="380" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-13" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;GameSpriteManager&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="412.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="mdeAvwxH1KuzEY8_ipnW-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="44.33000000000004" y="480" as="sourcePoint" />
+            <mxPoint x="44.33000000000004" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mdeAvwxH1KuzEY8_ipnW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="429.33" as="sourcePoint" />
+            <mxPoint x="-200" y="429.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF66FF);" vertex="1" parent="1">
+          <mxGeometry x="-60" y="537.5" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-18" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b style=&quot;&quot;&gt;GameSprite&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="570" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99004D);" vertex="1" parent="1">
+          <mxGeometry x="-620" y="570" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-20" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b style=&quot;&quot;&gt;Creatures&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="602.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-515.34" y="480.4" as="sourcePoint" />
+            <mxPoint x="-516" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#6600CC);" vertex="1" parent="1">
+          <mxGeometry x="-570" y="780" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-25" value="&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;NPCreature / BiggerFish&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="806.25" width="190" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mdeAvwxH1KuzEY8_ipnW-26" target="mdeAvwxH1KuzEY8_ipnW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99FFFF);" vertex="1" parent="1">
+          <mxGeometry x="-620" y="950" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-27" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b style=&quot;&quot;&gt;AquariumLevel&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="982.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mdeAvwxH1KuzEY8_ipnW-26" target="mdeAvwxH1KuzEY8_ipnW-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-515" y="1060" as="sourcePoint" />
+            <mxPoint x="-515.67" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#808080);" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1120" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-30" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b style=&quot;&quot;&gt;PopulationNode&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1152.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=light-dark(transparent,#FFFFFF);entryX=0.579;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-515.8" y="950" as="sourcePoint" />
+            <mxPoint x="-514.2099999999998" y="884.3999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);" vertex="1" parent="1">
+          <mxGeometry x="-570" y="670" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-38" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b style=&quot;&quot;&gt;Player Creature&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="707.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-46" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99CCFF);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="30" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-47" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;GameSceneManager:&lt;br&gt;&lt;/b&gt;Administra las escenas del juego. Cambia entre pantallas (Intro, Game, Game Over). &lt;span style=&quot;&quot; data-end=&quot;434&quot; data-start=&quot;403&quot;&gt;No ejecuta lógica del juego&lt;/span&gt;; solo organiza cuál escena está activa.&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="32.5" width="250" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-48" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99FF33);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="195" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-49" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;AquariumGameScene:&lt;/b&gt;&lt;br&gt;Escena donde ocurre el juego principal. Procesa input del jugador, actualiza HUD y llama a &lt;code data-end=&quot;602&quot; data-start=&quot;592&quot;&gt;Aquarium&lt;/code&gt; para manejar lógica del ecosistema.&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="200" width="250" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-52" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=light-dark(#FFFFFF,#CC6600);" vertex="1" parent="1">
+          <mxGeometry x="-930" y="370" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-54" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;Aquarium:&lt;/b&gt;&lt;br&gt;Mundo del juego. Contiene y actualiza criaturas, controla colisiones, niveles y repoblación. Mantiene un ecosistema dinámico.&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-902.5" y="376.25" width="245" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-59" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=light-dark(#FFFFFF,#99004D);" vertex="1" parent="1">
+          <mxGeometry x="-920" y="570" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-60" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;Creatures:&lt;br&gt;&lt;/b&gt;Contenedor donde viven todas las criaturas actuales en el &lt;font face=&quot;monospace&quot;&gt;Aquarium&lt;/font&gt;.&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-902.5" y="556.25" width="245" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-63" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="669.99" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-64" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;PlayerCreature:&lt;/b&gt;&lt;br&gt;Pez controlado por el jugador. Maneja movimiento, puntaje, vidas, daño y poder. Recibe input.&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="665.62" width="270" height="118.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-65" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#6600CC);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="786.25" width="310" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-66" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;NPCreature / BiggerFish:&lt;br&gt;&lt;/b&gt;Peces controlados por IA. Se mueven solos e interactúan con el jugador (presas y depredadores).&lt;br&gt;&lt;br&gt;&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="800" width="290" height="118.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-68" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99FFFF);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="940" width="310" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-69" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;AquariumLevel:&lt;br&gt;&lt;/b&gt;Define objetivos por nivel, tipo y cantidad de criaturas, y condiciones para avanzar.&lt;br&gt;&lt;br&gt;&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="940.63" width="290" height="118.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-70" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#808080);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1110" width="310" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-71" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;PopulationNode:&lt;br&gt;&lt;/b&gt;Elemento que representa la configuración de población por tipo de criatura dentro de un nivel.&lt;br&gt;&lt;br&gt;&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1120" width="280" height="118.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-76" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFF66);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="310" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-77" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;GameSpriteManager:&lt;br&gt;&lt;/b&gt;Carga y administra sprites. Devuelve el sprite correcto para cada tipo de criatura.&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="385" width="290" height="118.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-78" value="" style="shape=display;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF66FF);shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="533.12" width="310" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mdeAvwxH1KuzEY8_ipnW-79" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;sup&gt;&lt;b&gt;GameSprite:&lt;br&gt;&lt;/b&gt;Clase gráfica que dibuja imágenes del juego. Puede reflejarse horizontalmente (flip) para animación direccional.&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="540" width="280" height="116.25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
